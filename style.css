@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body
+{
+background-image: url(./img/bg\ paper.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-color: rgb(143, 57, 57);
+}
+/* Header part */
+
+#header
+{
+    display: flex;
+    /* margin-left: 2%; */
+    padding: 20px;
+    justify-content: center;
+}
+.webname
+{
+    width: 20%;
+    /* text-align: center; */
+    font-size: x-large;
+
+}
+.navbar
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: ;
+    font-size: x-large;
+}
+a{
+    color: brown;
+    text-decoration: none;
+    font-style: italic ;
+}
+
+.srch-btn
+{
+    width: 28%;
+    text-align: right;
+}
+input, button{
+    font-size: large;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* body part */
+
+#body
+{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;    
+    /* flex-direction: row-reverse; */
+}
+.box1
+{
+width: 40%;
+}
+
+.box1
+{
+    /* background-color: rgb(255, 255, 255); */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#box2{
+    width: 40%;
+    border: 1px soild black;
+
+}
